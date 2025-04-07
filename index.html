@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakesh Barik | Personal Identity</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="profile-pic">
+                <img src="https://i.ibb.co/HT1d35pH/IMG-20230831-130051.jpg" alt="Rakesh Barik" id="profile-img">
+            </div>
+            <h1 id="name">Rakesh Barik</h1>
+            <p id="tagline">Learn More Technical Ideas</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#personality">Personality</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="content">
+                    <p id="about-text">I'm an 18-year-old software developer, website designer, and app creator from West Bengal, India. My passion for technology drives me to constantly learn and create innovative solutions. I approach problems with both analytical thinking and intuition to develop effective digital solutions.</p>
+                    <div class="facts">
+                        <h3>Quick Facts</h3>
+                        <ul id="facts-list">
+                            <li><i class="fas fa-birthday-cake"></i> <span class="fact-label">Age:</span> <span id="age">18</span></li>
+                            <li><i class="fas fa-map-marker-alt"></i> <span class="fact-label">Location:</span> <span id="location">Panchrol, Purba Medinipur, West Bengal, India</span></li>
+                            <li><i class="fas fa-heart"></i> <span class="fact-label">Passion:</span> <span id="passion">Software Development & Web Design</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>My Skills & Traits</h2>
+                <div class="skills-container" id="skills-container">
+                    <!-- Skills will be added by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="personality" class="section">
+            <div class="container">
+                <h2>My Personality</h2>
+                <div class="personality-traits">
+                    <div class="trait">
+                        <div class="trait-icon"><i class="fas fa-brain"></i></div>
+                        <h3>Thinking Style</h3>
+                        <p id="thinking-style">Analytical and Intuitive - I approach problems methodically while also trusting my instincts for creative solutions.</p>
+                    </div>
+                    <div class="trait">
+                        <div class="trait-icon"><i class="fas fa-users"></i></div>
+                        <h3>Social Style</h3>
+                        <p id="social-style">Outgoing but value deep connections - I enjoy meeting new people but prioritize meaningful relationships.</p>
+                    </div>
+                    <div class="trait">
+                        <div class="trait-icon"><i class="fas fa-lightbulb"></i></div>
+                        <h3>Creative Style</h3>
+                        <p id="creative-style">I combine ideas in unexpected ways to create innovative solutions in software and web development.</p>
+                    </div>
+                </div>
+                <div class="personality-test">
+                    <h3>My Personality Type</h3>
+                    <div class="type-display" id="personality-type">
+                        <div class="type-name">ENFJ</div>
+                        <div class="type-description">The Protagonist - A natural leader who is warm, genuine, and charismatic. You're likely to be inspiring and motivating, with strong communication skills and a talent for bringing people together.</div>
+                    </div>
+                    <button id="type-reveal" class="btn">Reveal My Personality</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <div class="contact-methods">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <ul>
+                            <li><i class="fas fa-envelope"></i> <span id="email">barikrakesh310@gmail.com</span></li>
+                            <li><i class="fas fa-phone"></i> <span id="phone">+91 9635781763</span></li>
+                            <li><i class="fas fa-globe"></i> <span id="website">Coming Soon</span></li>
+                        </ul>
+                        <div class="social-links">
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Send Me a Message</h3>
+                        <form id="message-form">
+                            <div class="form-group">
+                                <input type="text" id="sender-name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="sender-email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Rakesh Barik. All rights reserved.</p>
+            <p>Designed with <i class="fas fa-heart"></i> as my personal identity</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
